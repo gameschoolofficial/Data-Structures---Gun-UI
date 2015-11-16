@@ -21,9 +21,7 @@ public class GunPurchase : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		imageTie[buyHandgun] = handgun;
-		imageTie[buySMG] = SMG;
-		imageTie[buyAK47] = AK47;
-		imageTie[buyRPG] = RPG;
+		
 	}
 	
 	// Update is called once per frame
@@ -36,8 +34,5 @@ public class GunPurchase : MonoBehaviour {
 		imageTie[b].color = Color.green;
 	}
 
-	public void returnImageToWhite(Button b)
-	{
-		imageTie[b].color = Color.white;
-	}
+	
 }
